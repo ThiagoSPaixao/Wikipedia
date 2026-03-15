@@ -1,0 +1,26 @@
+main {
+    display: flex;
+}
+
+aside {
+    width: 200px;
+    min-width: 200px;
+    padding: 10px;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    align-self: flex-start;
+}
+
+article {
+    flex: 1;
+    padding: 20px;
+}
+
+header {
+    padding: 10px 20px;
+    border-bottom: 1px solid #a2a9b1;
+}
+
+table {
+    float: right;
+}
