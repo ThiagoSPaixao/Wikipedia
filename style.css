@@ -23,4 +23,64 @@ header {
 
 table {
     float: right;
+    border-collapse: collapse;
+    margin: 0 0 20px 20px;
+    border: 1px solid #a2a9b1;
+    width: 250px;
+}
+
+table caption {
+    background-color: #cee0f2;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid #a2a9b1;
+}
+
+table th, table td {
+    padding: 5px 10px;
+    border: 1px solid #a2a9b1;
+    font-size: 14px;
+}
+
+table th {
+    background-color: #eaecf0;
+    text-align: left;
+    width: 40%;
+}
+
+body {
+    font-family: 'Linux Libertine', Gergia, Time, serif;
+    font-size: 16px;
+    color: #202122;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Linux Libertine', Georgia, serif;
+    font-size: 28px;
+    font-weight: normal;
+    border-bottom: 1px solid #a2a9b1;
+    padding-bottom: 5px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+    border-bottom: 1px solid #a2a9b1;
+    padding-bottom: 3px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+a {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
