@@ -92,3 +92,32 @@ footer {
     color: #54595d;
     text-align: center;
 }
+
+aside ul {
+    list-style: none;
+    padding-left: 10px;
+    margin: 5px 0;
+}
+
+aside ul li {
+    padding: 3px 0;
+    font-size: 14px;
+}
+
+aside h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #a2a9b1;
+}
+
+details summary {
+    cursor: pointer;
+    color: #3366cc;
+    font-size: 14px;
+}
+
+details summary:hover {
+    text-decoration: underline;
+}
