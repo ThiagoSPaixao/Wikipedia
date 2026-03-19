@@ -127,27 +127,33 @@ details summary:hover {
     main {
         flex-direction: column;
     }
-
     aside {
         width: 100%;
         min-width: unset;
     }
-
     table {
         float: none;
         width: 100%;
         margin: 0 0 20px 0;
     }
-
     article {
         padding: 10px;
     }
-
     h1 {
         font-size: 22px;
     }
-
     h2 {
         font-size: 18px;
     }
-}
+    header {
+        text-align: center;
+        padding: 10px;
+    }
+    header img {
+        width: 150px;
+    }
+    footer {
+        font-size: 12px;
+        padding: 15px 10px;
+    }
+}   ← só fecha aqui, depois de tudo!
