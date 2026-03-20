@@ -17,8 +17,41 @@ article {
 }
 
 header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
     padding: 10px 20px;
     border-bottom: 1px solid #a2a9b1;
+}
+
+.busca {
+    display: flex;
+    flex: 1;
+}
+
+.busca input {
+    flex: 1;
+    padding: 6px 10px;
+    border: 1px solid #a2a9b1;
+    font-size: 14px;
+    outline: none;
+}
+
+.busca input:focus {
+    border-color: #3366cc;
+}
+
+.busca button {
+    padding: 6px 12px;
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    border-left: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.busca button:hover {
+    background-color: #eaecf0;
 }
 
 table {
@@ -124,6 +157,10 @@ details summary:hover {
 }
 
 @media (max-width: 768px) {
+    header {
+    flex-direction: column;
+    align-items: stretch;
+    }
     main {
         flex-direction: column;
     }
