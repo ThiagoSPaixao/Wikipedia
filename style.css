@@ -165,11 +165,69 @@ details summary:hover {
     border-radius: 4px;
 }
 
+#tema:hover {
+    background-color: #eaecf0;
+}
+
+body.dark {
+    background-color: #121212;
+    color: #e8e8e8;
+}
+
+body.dark header {
+    background-color: #1e1e1e;
+    border-bottom-color: #3a3a3a;
+}
+
+body.dark aside {
+    background-color: #1e1e1e;
+    border-color: #3a3a3a;
+}
+
+body.dark table th {
+    background-color: #2a2a2a;
+}
+
+body.dark table th,
+body.dark table td {
+    border-color: #3a3a3a;
+}
+
+body.dark table caption {
+    background-color: #1a3a5c;
+}
+
+body.dark a {
+    color: #6a9fd8;
+}
+
+body.dark h1,
+body.dark h2 {
+    border-bottom-color: #3a3a3a;
+}
+
+body.dark .busca input,
+body.dark .busca button,
+body.dark #tema {
+    background-color: #2a2a2a;
+    border-color: #3a3a3a;
+    color: #e8e8e8;
+}
+
+body.dark footer {
+    border-top-color: #3a3a3a;
+    color: #a0a0a0;
+}
+
 @media (max-width: 768px) {
+
     header {
     flex-direction: column;
     align-items: stretch;
+    text-align: center;
+    padding: 10px;
     }
+    
     main {
         flex-direction: column;
     }
@@ -191,10 +249,7 @@ details summary:hover {
     h2 {
         font-size: 18px;
     }
-    header {
-        text-align: center;
-        padding: 10px;
-    }
+
     header img {
         width: 150px;
     }
